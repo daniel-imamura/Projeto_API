@@ -54,7 +54,7 @@ namespace ProjetoEscola_API.Controllers
                 result.Nome = dadosAlunoAlt.Nome;
                 result.codCurso = dadosAlunoAlt.codCurso;
                 await _context.SaveChangesAsync();
-                return NoContent();
+                return Created($"/api/aluno/{dadosAlunoAlt.RA}", dadosAlunoAlt);
             }
             catch
             {
