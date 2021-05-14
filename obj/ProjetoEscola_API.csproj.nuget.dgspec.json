@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rosane\\Desktop\\Daniel\\Internet_II\\PROJETOS\\ProjetoEscola_API\\ProjetoEscola_API.csproj": {}
+    "C:\\Users\\Rosane\\Desktop\\Daniel\\Internet_II\\projetos\\ProjetoEscola_API\\ProjetoEscola_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rosane\\Desktop\\Daniel\\Internet_II\\PROJETOS\\ProjetoEscola_API\\ProjetoEscola_API.csproj": {
+    "C:\\Users\\Rosane\\Desktop\\Daniel\\Internet_II\\projetos\\ProjetoEscola_API\\ProjetoEscola_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rosane\\Desktop\\Daniel\\Internet_II\\PROJETOS\\ProjetoEscola_API\\ProjetoEscola_API.csproj",
+        "projectUniqueName": "C:\\Users\\Rosane\\Desktop\\Daniel\\Internet_II\\projetos\\ProjetoEscola_API\\ProjetoEscola_API.csproj",
         "projectName": "ProjetoEscola_API",
-        "projectPath": "C:\\Users\\Rosane\\Desktop\\Daniel\\Internet_II\\PROJETOS\\ProjetoEscola_API\\ProjetoEscola_API.csproj",
+        "projectPath": "C:\\Users\\Rosane\\Desktop\\Daniel\\Internet_II\\projetos\\ProjetoEscola_API\\ProjetoEscola_API.csproj",
         "packagesPath": "C:\\Users\\Rosane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rosane\\Desktop\\Daniel\\Internet_II\\PROJETOS\\ProjetoEscola_API\\obj\\",
+        "outputPath": "C:\\Users\\Rosane\\Desktop\\Daniel\\Internet_II\\projetos\\ProjetoEscola_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rosane\\AppData\\Roaming\\NuGet\\NuGet.Config",

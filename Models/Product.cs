@@ -1,4 +1,4 @@
-using System.ComponentModel.DataAnnotations;
+/*using System.ComponentModel.DataAnnotations;
 
 namespace ProjetoEscola_API.Models
 {
@@ -30,4 +30,4 @@ namespace ProjetoEscola_API.Models
 
         public Category Category { get; set;}
     }
-}
+}*/

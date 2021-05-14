@@ -1,4 +1,4 @@
-using System.ComponentModel.DataAnnotations;
+/*using System.ComponentModel.DataAnnotations;
 
 namespace ProjetoEscola_API.Models
 {
@@ -7,4 +7,4 @@ namespace ProjetoEscola_API.Models
         [Key]
         public int id { get; set; }       
     }
-}
+}*/
