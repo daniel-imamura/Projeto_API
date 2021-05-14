@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K2/BZ0N1RCkkDu/7b1AvUksQ2Oo1WVEb5h10YhUR4JE1iSQC8e8OjWjOU01JSDJa33bZzXiz3ePYwilZ7SRqBg==",
+  "dgSpecHash": "v40CHCh/6R9mqotdXA7O4FqtaAOfJl7sgBdoHZuahVoIL3tVdoTUnuQKK8WCNQ52XF58QgcAXRGqE1dgqTjSeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rosane\\Desktop\\Daniel\\Internet_II\\PROJETOS\\ProjetoEscola_API\\ProjetoEscola_API.csproj",
+  "projectFilePath": "C:\\Users\\Rosane\\Desktop\\Daniel\\Internet_II\\projetos\\ProjetoEscola_API\\ProjetoEscola_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rosane\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Rosane\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",

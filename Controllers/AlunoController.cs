@@ -6,7 +6,7 @@ using ProjetoEscola_API.Models;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace ProjetoEscola_API.Controllers
+namespace ProjetoEscola_API.Controllers 
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -19,7 +19,7 @@ namespace ProjetoEscola_API.Controllers
         }
         [HttpGet]
         public ActionResult<List<Aluno>> GetAll()
-        {
+        {                                    
             return _context.Aluno.ToList();
         }
         [HttpGet("{AlunoId}")]
@@ -62,29 +62,25 @@ namespace ProjetoEscola_API.Controllers
             }
         }
         [HttpDelete("{AlunoId}")]
-        public async Task<ActionResult<Category>> delete(int AlunoId, Product product)
+        public async Task<ActionResult> delete(int AlunoId)
         {
-            if (ModelState.IsValid)
+            try
             {
-                try
+                //verifica se existe aluno a ser excluído
+                var aluno = await _context.Aluno.FindAsync(AlunoId);
+                if (aluno == null)
                 {
-                    //verifica se existe aluno a ser excluído
-                    var aluno = await _context.Aluno.FindAsync(AlunoId);
-                    if (aluno == null)
-                    {
-                        //método do EF
-                        return NotFound();
-                    }
-                    _context.Remove(aluno);
-                    await _context.SaveChangesAsync();
-                    return NoContent();
+                    //método do EF
+                    return NotFound();
                 }
-                catch
-                {
-                    return this.StatusCode(StatusCodes.Status500InternalServerError, "Falha no acesso ao banco de dados.");
-                }
+                _context.Remove(aluno);
+                await _context.SaveChangesAsync();
+                return NoContent();
             }
-            return this.StatusCode(StatusCodes.Status500InternalServerError, "Falha no acesso ao banco de dados.");
+            catch
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Falha no acesso ao banco de dados.");
+            }
             // retorna BadRequest se não conseguiu deletar            
         }
         [HttpPost]
